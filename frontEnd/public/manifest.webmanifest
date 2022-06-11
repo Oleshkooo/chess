@@ -1,7 +1,7 @@
 {
-    "name": "React_PWA",
-    "short_name": "React_PWA",
-    "description": "App_Description",
+    "name": "Chess App",
+    "short_name": "Chess App",
+    "description": "Simple Chess App",
     "start_url": ".",
     "theme_color": "#000000",
     "background_color": "#ffffff",

@@ -1,12 +1,10 @@
 import './App.scss'
+import ChessBoard from './Components/ChessBoard'
 
 export default function App() {
     return (
         <div className="app">
-            <h1>
-                <i className="fa-brands fa-react"></i>
-                App
-            </h1>
+            <ChessBoard />
         </div>
     )
 }

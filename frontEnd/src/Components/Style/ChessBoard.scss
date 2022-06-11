@@ -1,0 +1,74 @@
+.chessBoard {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #312e2b;
+
+    .board {
+        width: 90vh;
+        aspect-ratio: 1/1;
+        display: flex;
+        flex-wrap: wrap;
+        background: #eeeed2;
+
+        .cell {
+            width: calc(100%/8);
+            height: calc(100%/8);
+            border: none;
+            background-size: cover !important;
+
+            &:nth-child(16n+16),
+            &:nth-child(16n+14),
+            &:nth-child(16n+12),
+            &:nth-child(16n+10),
+            &:nth-child(16n+7),
+            &:nth-child(16n+5),
+            &:nth-child(16n+3),
+            &:nth-child(16n+1) {
+                background-size: cover !important;
+                background: #769656;
+            }
+
+        }
+
+        .bRook {
+            background-image: url("https://images.chesscomfiles.com/chess-themes/pieces/neo/150/br.png") !important;
+        }
+        .bKnight {
+            background-image: url("https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bn.png") !important;
+        }
+        .bBishop {
+            background-image: url("https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bb.png") !important;
+        }
+        .bKing {
+            background-image: url("https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bk.png") !important;
+        }
+        .bQueen {
+            background-image: url("https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bq.png") !important;
+        }
+        .bPawn {
+            background-image: url("https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bp.png") !important;
+        }
+
+        .wRook {
+            background-image: url("https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wr.png") !important;
+        }
+        .wKnight {
+            background-image: url("https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wn.png") !important;
+        }
+        .wBishop {
+            background-image: url("https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wb.png") !important;
+        }
+        .wKing {
+            background-image: url("https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wk.png") !important;
+        }
+        .wQueen {
+            background-image: url("https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wq.png") !important;
+        }
+        .wPawn {
+            background-image: url("https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wp.png") !important;
+        }
+    }
+}
